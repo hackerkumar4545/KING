@@ -2,13 +2,13 @@ import sqlite3
 
 default_admins = [
     (1, '6470028996', 1),
-    (2, '5892022026', 1)
+    (2, '5818639536', 1)
 ]
-token = '8171875002:AAH1-atIUDBIek9PAjzifaNm_BA2cvqRnoA'
-bot_name = '𝐑𝐞𝐯𝐨𝐥𝐟 𝐂𝐡𝐞𝐚𝐭 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥™'
-bot_username = '@REVOLF_bot'
-owner_username = '@Zeroxowners'
-channel_username = '@revolfchanal'
+token = '7806458485:AAHNuzc0NNtiATSNU-TXNBhWGVlztlhnILo'
+bot_name = 'Raand'
+bot_username = '@BhanuRajputana'
+owner_username = '@BhanuRajputana'
+channel_username = '@SUPERLOADE'
 
 def initialize_db():
     conn = sqlite3.connect('bot_data.db')
